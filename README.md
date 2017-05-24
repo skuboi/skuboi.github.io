@@ -1,1 +1,0 @@
-# skuboi.github.io
