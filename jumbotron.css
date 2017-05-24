@@ -125,7 +125,7 @@ body {
 #redrectangle {
   width: 80px;
   height: 10px;
-  background: linear-gradient(to left, #DE6262, #FFB88C);
+  background: linear-gradient(to left, #ff6e7f, #bfe9ff);
   margin-left: auto;
   margin-right: auto;
   margin-bottom:20px;
