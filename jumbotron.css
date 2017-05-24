@@ -6,7 +6,7 @@ body {
 
 .jumbotron{
   background-image: url("lighthousebg.jpg");
-  width:100%;
+  width:103%;
   height:100%;
   height:calc(100% - 1px);
   background-size: cover;
