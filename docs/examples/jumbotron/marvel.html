@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Koto Stan Kuboi - Strategy x Creativity</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="jumbotronMarvel">
+      <div class="container">
+      <h1>Marvel Representation Project</h1>
+      <br>
+      <h3>Project Objective:</h3> <h4>Analyze diversity in Marvel Comics through an examination of female, LGBTQ, and PoC titular characters throughout history.</h4>
+      <h3>Skills Used:</h3> <h4> Data Collection -- HTML scraping, data cleaning. <br> Analysis -- R for organization and analytics. <br> Visualization -- Chart JS library.</h4>
+
+    </div>
+    <br>
+  </div>
+
+    <div class="container">
+        <div class="row">
+          <p class="headertext"> Details. </p>
+          <div id="redrectangle"> </div>
+        </div>
+        <div class="row">
+            <p class="centered">
+              With recent comments made (and retracted) by a Marvel executive blaming their slowing comic book sales on "diversity," my friend Tiffany Taimoorazy and I decided to examine the history of minority characters in Marvel Comics.
+              <br><br>
+              We scaped data from Marvel's lineup, and manually assigned tallies of <span class="bolded"> female, LGBTQ, and PoC titular characters </span> for each series. We specifically focused on the main characters for every new series.
+              <br><br>
+              After cleaning and analysis, we visualized the proportion of these minority main characters, against the number of total new series published in a given year.
+              <br><br>
+              We found that while there is a positive upward trend, representation is still minimal, and Marvel still shows <span class="bolded"> strong biases for more "traditional" superheroes.</span>
+              <br><br>
+              We plan to take our analysis further in the future, and would love to join forces with interested collaborators!
+              <br><br>
+              Full Medium article available here.
+              <br><br>
+            </p>
+            <br>
+          </div>
+          <div class="row">
+            <p class="headertext"> Visualizations. </p>
+            <div id="bluerectangle"> </div>
+          </div>
+
+            <div id="all">
+              <div style="width:50%;margin:0 auto">
+                <canvas id="allChart" height="250px" width="250px">
+
+                </canvas>
+              </div>
+            </div>
+              <br><br>
+
+          <div id="female">
+            <div style="width:50%;margin:0 auto">
+              <canvas id="femaleChart" height="250px" width="250px">
+
+              </canvas>
+            </div>
+          </div>
+            <br><br>
+          <div id="lgbt">
+            <div style="width:50%;margin:0 auto">
+              <canvas id="lgbtChart" height="250px" width="250px">
+
+              </canvas>
+            </div>
+          </div>
+            <br><br>
+          <div id="poc">
+            <div style="width:50%;margin:0 auto">
+              <canvas id="pocChart" height="250px" width="250px">
+
+              </canvas>
+            </div>
+          </div>
+            <br><br>
+
+          <div id="wade">
+              <div style="width:80%;margin:0 auto">
+                <canvas id="wadeChart" height="250px" width="400px">
+
+                </canvas>
+              </div>
+            </div>
+
+
+
+  </div>
+<hr>
+  <footer>
+    <p>&copy; Koto Stan Kuboi.</p>
+    <p> special thanks to twitter bootstrap, stackoverflow </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <script src="js/main.js"></script>
+
+  </body>
