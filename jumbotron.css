@@ -70,7 +70,6 @@ body {
   background: linear-gradient(to right, #06acff , #0072ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1.1em;
 }
 
 .bolded {
