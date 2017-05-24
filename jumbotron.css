@@ -131,6 +131,15 @@ body {
   margin-bottom:20px;
 }
 
+#redfaderectangle {
+  width: 80px;
+  height: 10px;
+  background: linear-gradient(to left, #ff6e7f, #BFE9FF);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+}
+
 .bw{
   /* filter: grayscale(100%); */
   width:80%;
