@@ -15,6 +15,7 @@ body {
 .workitem{
   min-height: 356.22px;
   padding:0px;
+  margin-top:-10px;
 }
 .projectitem{
   min-height: 275.35
@@ -93,6 +94,17 @@ body {
   text-align:center;
   margin-bottom: -2px;
 }
+
+
+.headertext2 {
+  font-size: 3.5em;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:500;
+  text-align:center;
+  margin-bottom: -2px;
+  margin-top:-60px;
+}
+
 
 #bluerectangle {
   width: 160px;
